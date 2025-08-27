@@ -1,0 +1,38 @@
+{
+  "host": "192.168.45.154:3000",
+  "name": "CheckKit",
+  "launcherName": "CheckKit",
+  "display": "standalone",
+  "orientation": "portrait",
+  "themeColor": "#3b82f6",
+  "backgroundColor": "#ffffff",
+  "startUrl": "/",
+  "iconUrl": "/icons/icon-512x512.png",
+  "maskableIconUrl": "/icons/icon-512x512.png",
+  "monochromeIconUrl": "/icons/icon-512x512.png",
+  "enableNotifications": true,
+  "isChromeOSOnly": false,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": false
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false
+}
