@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(bubblewrap init:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(bubblewrap:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx vercel:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
